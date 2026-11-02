@@ -7,7 +7,7 @@ DIRECTIONS = [
     (0, -1, "LEFT"),
     (0, 1, "RIGHT")
 ]
-
+#
 def find_positions(maze):
     start, goal = None, None
     for r in range(len(maze)):
